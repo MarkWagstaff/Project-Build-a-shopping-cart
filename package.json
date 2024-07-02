@@ -1,0 +1,26 @@
+{
+    "name": "shopping-cart-project",
+    "version": "1.0.0",
+    "description": "shopping cart project with tests",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "live-server --port=3000 src",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "author": "Udacity",
+    "dependencies": {
+        "jest": "^27.5.1",
+        "live-server": "^1.2.0"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^9.5.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.0"
+    }
+}
